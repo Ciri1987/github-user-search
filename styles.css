@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 50px;
+    background-color: rgb(221, 203, 188);
+    font-family: 'Righteous', cursive;
+
+}
+
+h1 {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    border: rgb(221, 203, 188) solid 2px;
+    background-color: rgb(202, 191, 193);
+    max-width: 100%;
+    border-radius: 5%;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    border-radius: 1%;
+
+}
+
+label {
+    font-size: 25px;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+input {
+    border: rgb(221, 203, 188) solid 2px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 200px;
+    border-radius: 5%;
+
+}
+
+.container {
+    max-width: auto;
+    height: auto;
+
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.user {
+
+    margin: 20px;
+    border: rgb(105, 103, 101) solid 2px;
+    width: 250px;
+    background-color: antiquewhite;
+    border: rgb(221, 203, 188) solid 2px;
+    border-radius: 5%;
+
+}
+
+.avatar {
+    width: 250px;
+    border-radius: 5%;
+    display: flex;
+    text-align: center;
+    position: relative;
+
+}
+
+.user_name {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
